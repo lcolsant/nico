@@ -1,0 +1,74 @@
+.root{
+
+
+    -fx-font-size: 10pt;
+    -fx-background-color: transparent;
+
+
+}
+
+
+
+.hbox{
+    -fx-border-style: none;
+    -fx-background-color: darkred;
+
+}
+
+
+.vbox{
+   -fx-border-style: none;
+    /*-fx-background-color: rgba(0,0,0,.50);  */
+    -fx-background-color: transparent;
+}
+
+.pane{
+
+    -fx-border-style: none;
+    -fx-background-color: transparent;
+
+
+
+}
+
+
+.button{
+    -fx-background-color: #AB4642;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 4;
+}
+
+.text-area{
+
+    -fx-text-fill: #999999;
+    -fx-border-style: none;
+
+  /*  -fx-background-insets: 0;  */
+    /*-fx-background-color: transparent, white, transparent, white;
+    /*-fx-background-color: black, black, black, black; */
+  -fx-background-color: transparent, transparent, transparent, transparent;
+
+    /*-fx-background-color: rgba(0,0,0,0); */
+
+}
+
+
+.text-area .content{
+
+    -fx-cursor: DEFAULT;
+    -fx-border-style: none;
+    -fx-background-color: transparent, transparent, transparent, transparent;
+    /*-fx-background-color: rgba(0,0,0,.1);*/
+
+     /*-fx-background-color: transparent, white, transparent, white; */
+    /*-fx-background-color: black, black, black, black;*/
+
+}
+
+.text-area .scroll-pane{
+    -fx-background-color: transparent;
+}
+
+.text-area .viewport{
+    -fx-background-color: transparent;
+}
